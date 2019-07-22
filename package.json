@@ -1,0 +1,40 @@
+{
+  "name": "review-component-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon server",
+    "build:dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec3-galadriel/Review-component-proxy.git"
+  },
+  "author": "Galina Chzhen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fec3-galadriel/Review-component-proxy/issues"
+  },
+  "homepage": "https://github.com/fec3-galadriel/Review-component-proxy#readme",
+
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "mysql": "^2.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "morgan": "^1.9.1"
+  }
+}
